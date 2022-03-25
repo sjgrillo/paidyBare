@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        "inlineSourceMap": true,
+        "sourceMap": true,
+        "noEmitOnError": true,
+        "importHelpers": false,
+        "types": ["jest", "node"]
+    },
+    "include": ["src"],
+    "exclude": ["jest-config"]
+}
